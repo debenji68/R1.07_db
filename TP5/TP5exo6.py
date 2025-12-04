@@ -14,5 +14,6 @@ if indice != -1:
 else:
     print('Le mot "wagon" n’est pas présent.')
 
+
 occ = chaine.count(mot)
 print(f'Nombre d’occurrences de "{mot}" : {occ}')

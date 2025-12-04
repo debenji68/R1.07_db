@@ -14,6 +14,7 @@ def verifier_fichier(nom_fichier):
     print(f"Dernière modification : **{date_modif.strftime('%Y-%m-%d %H:%M:%S')}**")
     return timestamp_modif
 
+
 def comparer_fichiers(ts1, nom1, ts2, nom2):
     """Compare deux timestamps de modification et affiche le fichier le plus récent."""
     if ts1 is None and ts2 is None:
